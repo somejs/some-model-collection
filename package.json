@@ -1,0 +1,39 @@
+{
+  "name": "some-model-collection", "version": "0.1.0",
+
+  "description": "some model collection dsl",
+
+  "keywords": [
+    "some", "model", "collection", "domain", "specific", "language",
+    "data", "validate"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/somejs/some-model-collection.git"
+  },
+
+  "author": {
+    "name": "Michael F", "email": "tehfreak@awesome39.com"
+  },
+
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+
+  "dependencies": {
+    "some-model": "https://github.com/somejs/some-model/archive/master.tar.gz",
+    "some-service": "https://github.com/somejs/some-service/archive/master.tar.gz"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+
+  "engines": {
+    "node": ">=0.8"
+  },
+
+  "license": "MIT"
+}
